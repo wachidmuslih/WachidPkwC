@@ -29,7 +29,9 @@ header img {
     position: absolute;
     margin: 0;
     padding: 0;
-    text-align: center;
+    top: 50px;
+    left: 45%;
+    transform: translate(-50%, -50%);
     display: flex;
 }
 
@@ -39,7 +41,7 @@ header img {
 }
 
 .sosmed ul li .fa {
-    font-size: 10px;
+    font-size: 20px;
     transition: .6s;
 }
 
