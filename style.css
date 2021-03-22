@@ -25,14 +25,25 @@ header img {
     max-width: 100px;
 }
 
-.sosmed {
+.sosmed ul {
     position: absolute;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
-header li {
+.sosmed ul li {
     list-style: none;
-    margin: 10 px 30px;
-    display: inline-block;
-    font-size: 10px;
-    padding: 20px 20px;
+    margin: 0px 15px;
 }
+
+.sosmed ul li .fa {
+    font-size: 10px;
+    transition: .6s;
+}
+
+.sosmed ul li a {
+    position: relative;
+    display: block;
+}
+    
