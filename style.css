@@ -40,6 +40,7 @@ header img {
 .sosmed ul li .fa {
     font-size: 10px;
     transition: .6s;
+    color: black;
 }
 
 .sosmed ul li a {
