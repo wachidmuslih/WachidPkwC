@@ -50,34 +50,7 @@ h3 {
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
+    list-style-type: "►";
 }
 
-.sosmed ul li {
-    list-style: none;
-    margin: 0px 15px;
-}
-
-.sosmed ul li .fa {
-    font-size: 20px;
-    transition: .6s;
-}
-
-.sosmed ul li a {
-    position: relative;
-    display: block;
-}
-
-.skills .column ul {
-    list-style-type: none;
-  }
-.skill.column {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-.skill.column ul > li:before{
-    content: "►";
-    padding-right: 0.5em;
-    color: #509e98;
-}
     
