@@ -36,6 +36,7 @@ h3 {
 }
 
 
+
 .sosmed ul {
     position: absolute;
     margin: 0;
@@ -61,17 +62,4 @@ h3 {
     display: block;
 }
 
-.skills .column ul {
-    list-style-type: none;
-  }
-.skill.column {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-.skill.column ul > li:before{
-    list-style-type: ;
-    padding-right: 0.5em;
-    color: #509e98;
-}
     
