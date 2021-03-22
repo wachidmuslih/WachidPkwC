@@ -5,13 +5,14 @@ body{
     font-family: 'Raleway';
     font-size: 16px;
     line-height: 1.8em;
+    background-image: url('./img/bg.jpg');
     background-size: cover;
-    width: 100%;
-    height: auto;
+    background-repeat: no-repeat;
 }
 
-
-
+.name h3 {
+    text-transform: none;
+}
 a {
     color: white;
     text-decoration: none;
@@ -55,13 +56,38 @@ h3 {
 }
 
 .sosmed ul li .fa {
-    font-size: 20px;
+    font-size: 30px;
     transition: .6s;
 }
 
 .sosmed ul li a {
     position: relative;
     display: block;
+} 
+
+
+
+.inf {
+    margin: 25px auto;
+    background-color: aliceblue;
+    opacity: 0.8;
+    width: 600px;
+    padding: 0 20px;
+    border : 2px solid black;
 }
 
+@media only screen and (max-width:800px) {
+    /*for tablets*/
+    .main {
+        width: 80%;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    /*for tablets*/
+    .main {
+        width: 100%;
+    }
+}
     
