@@ -20,7 +20,7 @@ header {
     background-position: fixed;
     color: white;
 }
-header img {
+avatar {
     border-radius: 50%;
     max-width: 150px;
 }
