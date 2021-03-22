@@ -25,6 +25,23 @@ header img {
     max-width: 100px;
 }
 
+h1 {
+    text-transform: uppercase;
+    margin:  1em 0;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.education {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
 .sosmed ul {
     position: absolute;
     margin: 0;
