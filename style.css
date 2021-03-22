@@ -29,8 +29,8 @@ header img {
     position: absolute;
     margin: 0;
     padding: 0;
-    top: 50px;
-    left: 45%;
+    top: 50%;
+    left: 46%;
     transform: translate(-50%, -50%);
     display: flex;
 }
