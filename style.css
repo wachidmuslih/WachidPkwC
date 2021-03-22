@@ -27,8 +27,11 @@ header img {
 
 .sosmed ul {
     position: absolute;
+    top: 40%;
+    left: 50%;
     margin: 0;
     padding: 0;
+    transform: translate(-50%, - 50%);
     display: flex;
 }
 
@@ -40,7 +43,6 @@ header img {
 .sosmed ul li .fa {
     font-size: 10px;
     transition: .6s;
-    color: black;
 }
 
 .sosmed ul li a {
