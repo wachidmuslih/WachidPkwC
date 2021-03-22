@@ -67,12 +67,15 @@ h3 {
     display: block;
 }
 
-.skill .column {
+.skills .column ul {
+    list-style-type: none;
+  }
+.skill.column {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
   }
-.skill .column ul > li:before{
+.skill.column ul > li:before{
     content: "►";
     padding-right: 0.5em;
     color: #509e98;
