@@ -78,16 +78,23 @@ h3 {
 
 @media only screen and (max-width:800px) {
     /*for tablets*/
-    .main {
+    .bio {
         width: 80%;
         padding: 0;
+    }
+    .inf {
+        width: 50%;
     }
 }
 
 @media only screen and (max-width:600px) {
     /*for tablets*/
-    .main {
+    .bio {
         width: 80%;
     }
+    .inf {
+        width: 50%;
+    }
+
 }
     
